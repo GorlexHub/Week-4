@@ -50,14 +50,4 @@ Celle, typique, du Framework :
    └──test
    └──tmp 
    └──vendor
-```
 
-## L'app expliquée :
-L'application a deux modèles : 
-- assembly (name)
-- part (part_number)
-
-Qui ont les relations suivantes 
-
-- Assembly N - N Parts 
-en utilisant has_and_belongs_to_many
